@@ -2,9 +2,9 @@
 
 # Introduction
   
-The Multi-class-peach-RGB-D-dataset is composed by 2050 multi-modal images of peach on tree filelds captured using Microsoft Azure Kinect. Each images contains 3 different modalities, including RGB image, Depth image and Infrared images. 
+The Multi-class-peach-RGB-D-dataset is composed by 2627 multi-modal images of 577 naked peaches and 2050 bagging peaches on tree filelds captured using Microsoft Azure Kinect camera. Each image contains 3 different modalities, including RGB image, Depth image and Infrared images. 
 
-All images were aligned with the RGB image and manually labelled in 4 classes: non-occluded, occluded by leaves, occluded by branches and occluded by fruit. Find annotations in ".txt" format inside "annotations" folder. The following informations are some of the camera parameters.
+All images were aligned with the RGB image and manually labelled in 4 classes by occlusion status: non-occluded, occluded by leaves, occluded by branches and occluded by fruits. Find annotations in ".txt" format inside "annotations" folder. The following informations are some of the camera parameters.
 
 ### Color camera:
 ```
@@ -36,4 +36,4 @@ Multi-class-peach-RGB-D-dataset
 
 ```
 
-For more dataset, please contact Email:tsing999@stu.ahau.edu.cn, thanks.
+>For more dataset, please contact Email:tsing999@stu.ahau.edu.cn, thanks.
